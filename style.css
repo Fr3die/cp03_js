@@ -7,16 +7,24 @@
 body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
+  overflow: hidden; 
 }
 
 header {
-  background-color: #333;
+  border-radius: 100px 100px 0px 0px;
+  background-color: yellow;
   color: #fff;
   padding: 20px;
 }
 
+header h1{
+  color: red;
+  text-align: center;
+}
+
 nav {
-  background-color: #777;
+  border-radius: 0px 0px 100px 100px ;
+  background-color: black;
   color: #fff;
   padding: 10px;
 }
@@ -49,14 +57,14 @@ section {
   display: flex;
 }
 
-.slideshow img {
+.slideshow img{
   max-width: 100%;
-  height: auto;
+  height: 350px;
   margin-right: 10px;
 }
 
 .light-blue-background {
-  background-color: #53A1F6; /* Altere para a cor desejada */
+  background-color: red ; /* Altere para a cor desejada */
   color: #000; /* Altere a cor do texto, se necessário */
 }
 
@@ -72,8 +80,15 @@ button#backgroundButton:hover {
 
 #imagem {
   display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
 }
 
-#imagem.show {
-  display: block;
-}
+#imagem img {
+  height: 1000px;
+  width: 1000px;
+  max-width: 100%;
+  max-height: 100%;
