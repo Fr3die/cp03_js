@@ -1,5 +1,5 @@
 // Exemplo simples de alerta na página inicial
-window.onload = function() {
+function bemvindo(){
   alert("Seja bem-vindo!");
 };
 

@@ -4,11 +4,13 @@
   <title>Meu Site</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="bemvindo()">
+
   <header>
-    <h1>☭ Bem-vindos ao Nosso site ☭ </h1>
+    <h1>Bem-vindo ao Nosso site</h1>
   </header>
-    <nav>
+
+  <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="sobre.html">Sobre</a></li>
@@ -21,20 +23,26 @@
     <h2>Slideshow</h2>
     <div class="slideshow">
       <img src="./imagens/fidelito.jpg" alt="Imagem 1">
-      <img src="/imagens/fredinho.jpg" alt="Imagem 2">
-      <img src="imagem3.jpg" alt="Imagem 3">
+      <img src="./imagens/manifesto-comunista.png" alt="Imagem 2">
+      <img src="./imagens/marxismo.jpg" alt="Imagem 3">
     </div>
   </section>
 
-  <section>
+  <button id="backgroundButton" onclick="changeBackground()">Mudar Cor de Fundo</button>
+
+  <section id="texto">
     <h2>Texto de 10 linhas</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a tortor at mauris feugiat tincidunt. Fusce mollis tincidunt enim ut sollicitudin. Vestibulum vitae arcu vitae metus bibendum suscipit. Donec tincidunt, nisl ac tincidunt venenatis, libero tortor tristique justo, ac viverra odio orci sed nunc. Phasellus ultricies risus mauris, id varius arcu tempus ut.</p>
-    <!-- Continue com mais linhas de texto -->
+    <p>O Manifesto comunista (Das Kommunistische Manifest), originalmente denominado Manifesto do Partido comunista (em alemão: Manifest der Kommunistischen Partei), publicado pela primeira vez em 21 de fevereiro de 1848, é historicamente um dos tratados políticos de maior influência mundial. Comissionado pela Liga dos Comunistas e escrito pelos teóricos fundadores do socialismo científico Karl Marx e Friedrich Engels, expressa o programa e propósitos da Liga.[1]
+
+      O Manifesto comunista foi escrito no meio do grande processo de lutas urbanas das Revoluções de 1848, chamadas também de Primavera dos Povos, um processo revolucionário de quase um ano que atingiu os principais países Europeus e é uma análise da Revolução Industrial contemporânea a ela.[2] Duas de suas maiores reivindicações foram reformas sociais: a conquista da diminuição da jornada diária de trabalho de doze para dez horas e o voto universal, embora apenas para os homens.</p>
+    <p>No prefácio de 1888, assinado por Marx e Engels, este descreve que o Manifesto foi a plataforma da Liga dos Comunistas, uma associação dos trabalhadores, primeiramente apenas alemães, depois internacional, "uma sociedade secreta". O congresso da Liga aconteceu em Londres, em 1847. Esboçado em alemão, em 1848, o manuscrito foi enviado à gráfica em janeiro de 1848, poucas semanas antes da revolução francesa de 24 de fevereiro. A primeira tradução inglesa foi realizada por Miss Helen Macfarlane e foi publicada no "Red Republican" em 1850.[3]
+
+      Engels também descreve que a insurreição em Paris foi derrotada em junho de 1848. Segundo ele a "primeira grande batalha entre o proletariado e a burguesia", a partir dessa época a luta dos trabalhadores é reduzida e, embora movimentos independentes continuassem a mostrar sinais de vida, eles eram sistematicamente derrotados. A polícia prussiana perseguiu o comitê central da Liga Comunista, localizada em Colônia. Os seus membros foram presos, e depois de dezoito meses, foram julgados, em 1852, sete a penas de prisão entre três a seis anos, em uma fortaleza. A Liga foi dissolvida pelos seus membros, a partir do que o manifesto é condenado a um longo esquecimento,[3] hoje sendo um dos livros mais lidos em todo o mundo, com traduções em todos os idiomas.</p>
+      <!-- Continue com mais linhas de texto -->
   </section>
-  <button id="backgroundButton" onclick="changeBackground()">Mudar Cor de Fundo</button>
-  <div id="imagem">
-    <img src="./imagens/boo.png">
-  </div>    
+  
+ 
   <script src="script.js"></script>
 </body>
 </html>
