@@ -149,3 +149,7 @@ section {
   background-color: rgb(255, 66, 66);
   cursor: pointer;
 }
+
+p{
+  font-family: "sorte", sans-serif;
+}
