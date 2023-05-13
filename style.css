@@ -152,5 +152,10 @@ section {
 
 p{
   font-family: "sorte", sans-serif;
-  
+
+}
+
+.product-card img{
+  height: 350px;
+  width: 350px;
 }
